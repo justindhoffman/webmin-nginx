@@ -196,7 +196,8 @@ sub find_directives
   &open_readfile(CONF, $file);
   while ($line = <CONF>) {
     $line =~ s/^\s*#.*$//g;
-    if ($line =~ /server \{$/) {
+    if ($line =~ /server \{$/) { 
+	#row:199 / Added reverse slash (respect remove parentesis)
       $skip = 0;
     }
     if ($line =~ /}$/) {
