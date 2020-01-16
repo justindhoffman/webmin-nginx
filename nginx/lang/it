@@ -1,0 +1,43 @@
+index_title=nginx webserver
+index_version=nginx versione $1
+index_defserv=Default Host
+
+index_select=Seleziona i Servers
+index_status=Stato
+index_name=Nome Server 
+index_addr=Indirizzo
+index_port=Porta
+index_root=Documento Root
+index_url=URL
+index_view=Vista
+
+opt_select=Seleziona azione...
+opt_enable=Attivo
+opt_disable=Disattivo
+opt_delete=Elimina
+btn_submit=Aggiorna Servers
+
+status_enabled=Attivato
+status_disabled=Disattivato
+
+gl_edit=Edita file nginx.conf
+gl_proxy=Edita file proxy.conf
+gl_details=Visualizza dettagli nginx
+
+manual_title=Edita File di Configurazione
+manual_header=Utilizzare la casella di testo seguente per modificare manualmente il file di configurazione nginx per $1.
+
+nginx_apply=Applica Cambiamenti
+nginx_stop=Ferma nginx
+nginx_start=Avvia nginx
+
+#stop_nginx=nginx fermato manualmente
+stop_epid=Apertura PID file fallita
+stop_esig=Invio SIGTERM al processo $1 fallito
+
+#start_nginx=nginx avviato manualmente
+start_err=Avvio nginx fallito
+
+test_err=Non e' possibile testare la configurazione di nginx
+
+msg_reload=Attenzione: I cambiamenti non saranno applicati fino al prossimo riavvio di NginX. <a href="reload.cgi?redir=/nginx/">Applica i cambiamenti</a>
